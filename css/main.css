@@ -1,0 +1,102 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+.container{
+ width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.site-top{
+    padding: 20px 0px;
+    background-color: #5994DAFF;
+}
+.top{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.time{
+    color: white;
+    text-decoration: none;
+}
+.link-site{
+text-decoration: none;
+color: white;
+}
+.center{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.center-part{
+    background-color: #D6E8FEFF ;
+    padding: 71px 0;
+}
+.select{
+    background: transparent;
+    border: none;
+}
+ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+li{
+    font-size: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 250px;
+    height: 250px;
+}
+.title:nth-child(1){
+background-color: #F3CD8CFF;
+}
+.title:nth-child(2){
+    background-color:#EF999CFF ;
+}
+.title:nth-child(3){
+background-color:#B2D5FEFF ;
+}
+.title:nth-child(4){
+background-color: #C2ECFAFF;
+}
+.title:nth-child(5){
+background-color: #C8C5FAFF;
+}
